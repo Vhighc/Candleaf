@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
+
 .page2prod{
     border: 1px solid red;
     display: flex;
+    margin-top: 5%;
+    
+}
+.propg2prod>p{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.8999999165534973px;
+}
+.prodpgsec01imgcont{
+    border: 1px solid green;
+    background: rgba(247, 248, 250, 1);
+    position: relative;
+    left: 80px;
+    margin-left: 6%;
+    width: 500px;
+}
+.preradiosecoptpg{
+    border: 1px solid rgba(230, 230, 230, 1);
+    margin-top: 5%;
 }
 .prodpagebutt>button{
     display: flex;
@@ -8,3 +31,111 @@
 .simica{
     display: flex;
 }
+.presimica{
+    border: 1px solid blue;
+    margin-left: 5%;
+}
+.presimica>h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+    margin-bottom: 2%;
+}
+.subsimica01{
+    border: 1px solid salmon;
+    width: 13%;
+}
+.subsimica01>h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(86, 178, 128, 1);
+}
+.subsimica01>p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    text-align: center;
+    color: rgba(39, 39, 39, 1);
+    position: relative;
+    top: 25px;
+    right: 5px;
+}
+.prodpagebutt{
+    position: relative;
+    top: 30px;
+}
+.prodpagebutt>button{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    width: 58px;
+    height: 25px;
+    justify-content: center;
+    gap: 10%;
+    /* border: none; */
+    border: 1px solid rgba(86, 178, 128, 1);
+  
+}
+.prodpagebutt>button>div{
+    color: rgba(86, 178, 128, 1);
+}
+.prodpgradiosec{
+    border: 1px solid yellow;
+    margin-right: 15%;
+    margin-left: 10%;
+    /* padding-left: 5%; */
+}
+.prodpgradiosec>button{
+    display: flex;
+    margin-top: 15%;
+    width: 100%;
+    height: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: rgba(86, 178, 128, 1);
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    /* align-content: center; */
+    border: none;
+
+}
+.prodpgradiosec>div>label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+}
+.radiosecoptpg>select{
+    border: none;
+    border: 1px solid rgba(231, 231, 231, 1);
+    position: relative;
+    left: 6px;
+}
+.radiosecoptpg>label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.8999999165534973px;
+    color: rgba(39, 39, 39, 1);
+    /* margin-top: 5%; */
+}
+.subsecoptpg{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 5%;
+}
+.waxfragburn{}
