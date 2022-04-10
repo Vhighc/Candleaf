@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar'
+import Footer from './Components/Footer/Footer'
+import Home from './Pages/Home/Home'
+import Receipt from './Pages/Receipt/Receipt';
+import Thanks from './Pages/Thanks/Thanks'
+import Payment from './Pages/Payment/Payment';
+import Shipping from './Pages/Shipping/Shipping'
+import Cart from './Pages/Cart/Cart';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route,} from 'react-router-dom';
+// import { Switch, Route } from 'react-router-dom';
+import Prodpage from './Pages/Prodpage/Prodpage'
+import Auth from './Pages/Auth/Auth'
+import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
+ 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar nav={true}/>
+        <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/prodpage" exact component={Prodpage} />
+        <Route path="/cart" exact component={Cart} />
+        <Route path="/auth" exact component={Auth} />
+        <Route path="/shipping" exact component={Shipping} />
+        <Route path="/payment" exact component={Payment} />
+        <Route path="/thanks" exact component={Thanks} />
+        <Route path="/receipt" exact component={Receipt} /> 
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
