@@ -20,14 +20,14 @@ const Navbar = (props) => {
     <a href="/Auth">About</a>
     </div>
     <div className="navicons">
-    <Link to="/payment">
+    <Link to="/">
       <div className='buttconts'>
         <button>
           <img src="./Images/NavProfileIcon1.svg" alt="profile icon" />
         </button>
       </div>
     </Link>
-    <Link to="/">
+    <Link to="/cart">
       <div className='buttconts'>
         <button>
           <img src="./Images/NavCartIcon1.svg" alt="cart icon" />

@@ -9,7 +9,7 @@ const Prodpage = () => {
                 <img src="./Images/Page2prodimg.svg" alt="" />
             </div>
             <p>All hand-made with natural soy wax, Candleaf is made for your pleasure moments.</p>
-                <span>FREE SHIPPING</span>
+                <span id='freeship'>FREE SHIPPING</span>
         </div>
         <div className='presimica'>
             <h3>Spiced Mint Candleaf®</h3>
@@ -39,7 +39,7 @@ const Prodpage = () => {
                         </select>
                      </div>
                      <div className='subsecoptpg'>
-                        <p>Subscribe now and get the 10% of discount on every recurring order.  The discount will be applied at checkout. See details</p>
+                        <p>Subscribe now and get the 10% of discount on every recurring order.  The discount will be applied at checkout. <span className='seedet'>See details</span></p>
                      </div>
                     </div>
                   
@@ -50,9 +50,9 @@ const Prodpage = () => {
                 </div>
                 </div>
                   <div className='waxfragburn'>
-                    <p>Wax: Top grade Soy wax that delivers a smoke less,  consistent burn</p>
-                    <p>Fragrance: Premium quality ingredients with natural essential oils</p>
-                    <p>Burning Time: 70-75 hours Dimension: 10cm x 5cm Weight: 400g</p>
+                    <p><strong>Wax: </strong>Top grade Soy wax that delivers a smoke less,  consistent burn</p>
+                    <p><strong>Fragrance: </strong>Premium quality ingredients with natural essential oils</p>
+                    <p><strong>Burning Time: </strong>70-75 hours <strong> Dimension: </strong>10cm x 5cm <strong> Weight: </strong>400g</p>
                  </div>
            </div>
     </div>

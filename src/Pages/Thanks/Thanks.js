@@ -38,7 +38,6 @@ const Thanks = () => {
         </p>
         <button>Back to shopping</button>
         <div><Link to='/receipt'>Print receipt</Link></div>
-        
     </div>
   )
 }
