@@ -1,7 +1,7 @@
 import React from 'react'
 import './Cart.css'
 import cartimgsec2 from '../../Components/Images/cartimgsec2.svg'
-
+// import { Link } from ''
 const myCartTitle01 ='Your cart items'
 const myLink01 = "Back to shopping"
 const myLink02 = "Remove"
