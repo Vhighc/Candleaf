@@ -127,9 +127,9 @@
     gap: 14px;
     border: none;
 }
-.prodpgradiosec>button>p>link{
+/* .prodpgradiosec>button>p>link{
     color: rgba(255, 255, 255, 1);
-}
+} */
 
 .prodpgradiosec>div>label{
     font-family: 'Roboto', sans-serif;
