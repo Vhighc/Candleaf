@@ -37,7 +37,7 @@ const Thanks = () => {
           Please check your inbox in the future for your order updates.
         </p>
         <button>Back to shopping</button>
-        <div><Link to='/receipt'>Print receipt</Link></div>
+        <div className='recethank'><Link to='/receipt'>Print receipt</Link></div>
     </div>
   )
 }

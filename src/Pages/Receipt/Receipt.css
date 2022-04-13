@@ -112,3 +112,6 @@
 .padolaprice{
     text-align: right;
 }
+.padolaprice>h2{
+    margin-top: 2%;
+}
