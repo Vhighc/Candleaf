@@ -1,5 +1,25 @@
 import React from 'react'
 import './Prodpage.css'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+
+// const link = {
+//      font-family: 'Roboto', sans-serif;
+//     display: 'flex',
+//     marginTop: '15%',
+//     width: '100%',
+//     height: '42px',
+//     color: 'rgba(255, 255, 255, 1)',
+//     fontSize: '20px',
+//     fontWeight: '400',
+//     background: 'rgba(86, 178, 128, 1)',
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//     gap: '14px',
+//     border: 'none',
+//     textDecoration: 'none',
+// }
+
+
 
 const Prodpage = () => {
   return (
@@ -31,22 +51,23 @@ const Prodpage = () => {
                         <label htmlFor="">One time purchase</label>
                     </div>
                     <div className='preradiosecoptpg'>
-                     <div className='radiosecoptpg'>
+                      <div className='radiosecoptpg'>
                         <input type="radio" name='pay mode' />
                         <label htmlFor="">Subscribe and delivery every </label>
                         <select>
                         <option value="4 weeks">4 weeks</option>
                         </select>
-                     </div>
+                      </div>
                      <div className='subsecoptpg'>
                         <p>Subscribe now and get the 10% of discount on every recurring order.  The discount will be applied at checkout. <span className='seedet'>See details</span></p>
                      </div>
                     </div>
-                  
-                    <button>
+                    <Link to='/cart' >
+                    <button >
                     <img src="./Images/Vectorcartbutt.svg" alt="" />
                     <p>+ Add to cart</p>
                     </button>
+                    </Link>
                 </div>
                 </div>
                   <div className='waxfragburn'>

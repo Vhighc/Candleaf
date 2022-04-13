@@ -2,6 +2,7 @@ import React from 'react'
 import './Shipping.css'
 import Logo from '../../Components/Logo/Logo'
 import Greathanarrow from '../../Components/Images/Greathanarrow.svg'
+import { Link } from 'react-router-dom'
 
 
 const myShipHeader01 = 'Shipping method'
@@ -48,7 +49,9 @@ const Shipping = () => {
         </div>
         <div className='shippgclickins'>
           <div><a href="">Back to shipping</a></div>
+          <Link to='/payment'>
           <div><button>Pay now</button></div>
+          </Link>
         </div>
     </div>
   )

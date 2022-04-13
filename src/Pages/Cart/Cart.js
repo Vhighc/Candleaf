@@ -1,7 +1,9 @@
 import React from 'react'
 import './Cart.css'
 import cartimgsec2 from '../../Components/Images/cartimgsec2.svg'
-// import { Link } from ''
+import { Link } from 'react-router-dom'
+
+
 const myCartTitle01 ='Your cart items'
 const myLink01 = "Back to shopping"
 const myLink02 = "Remove"
@@ -48,7 +50,11 @@ const Cart = () => {
       <div className='lastseccartpg'>
         <p>Sub-total</p>
         <p>$ 9.99</p>
-        <div><button>Check-out</button></div>
+        <div>
+          <Link to='/shipping'>
+            <button>Check-out</button>
+          </Link>
+        </div>
       </div>
       <p>{myParagraph01}</p>
     </div>

@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar nav={true}/>
+        {/* <Navbar nav={true}/> */}
         <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/prodpage" exact component={Prodpage} />

@@ -5,15 +5,16 @@ import Greathanarrow from '../..//Components//Images//Greathanarrow.svg'
 import CreditCardFillpaypg from '../..//Components//Images//CreditCardFillpaypg.svg'
 import LockFillpaypg from '../..//Components//Images//LockFillpaypg.svg'
 import InfoSquareFillpaypg from '../..///Components///Images///InfoSquareFillpaypg.svg'
+import { Link }  from 'react-router-dom'
 
 const myTitle01 = 'Payment method';
 const myTitle02 = 'Tax Informations';
 const myTitle03 ='Billing address';
 
-const heading = {
-  fontSize: '60px',
-  color: 'red'
-}
+// const heading = {
+//   fontSize: '60px',
+//   color: 'red'
+// }
 
 const Payment = () => {
   return (
@@ -84,7 +85,7 @@ const Payment = () => {
             <input type="text" placeholder='Tax number  (optional)' />
           </div>
         </div>
-        <h2 style={heading}>{myTitle03}</h2>
+        <h2>{myTitle03}</h2>
         <div className='radiocont'>
           <div>
             <div className='subradiocont orcont02'>
@@ -102,7 +103,7 @@ const Payment = () => {
         </div>
         <div className='clickins'>
           <div><a href="">Back to shipping</a></div>
-          <div><button>Pay now</button></div>
+          <div><button><Link to='/thanks'>Pay now</Link></button></div>
         </div>
     </div>
   )

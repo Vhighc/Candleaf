@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
 
+/* .continfoshippg{
+    margin-top: 5%;
+} */
+
 .shippg{
     display: flex;
     /* border: 1px solid red; */
     margin-left: 20%;
-    margin-top: 1%;
+    margin-top: 1.5%;
+    margin-bottom: 5%;
 }
 .shippg>div{
     display: flex;
@@ -44,6 +49,7 @@
     border-radius: 7px;
     margin-left: 20%;
     margin-right: 45%;
+    /* padding-top: 5%; */
 }
 hr{
     height: 1px;
@@ -64,6 +70,7 @@ hr{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.6000000238418579px;
+    margin-top: 5%;
 }
 .continfoshippg>div>p{
     margin-left: 4%;
@@ -83,8 +90,9 @@ hr{
     font-weight: 400;
     letter-spacing: -0.6000000238418579px;
     color: rgba(86, 178, 128, 1);
-    position: relative;
-    bottom: 8.5px;
+    margin-top: 5%;
+    /* position: relative;
+    bottom: 8.5px; */
 }
 .subcontinfoshippg>h6{
     position: relative;
@@ -134,7 +142,7 @@ hr{
     font-weight: 700;
     font-size: 14px;
     position: relative;
-    top: 8px;
+    top: 18px;
 }
 
 .shippgclickins{
@@ -142,6 +150,7 @@ hr{
     display: flex;
     margin-left: 20%;
     margin-right: 44%;
+    margin-bottom: 5%;
 }
 
 .shippgclickins>div>a{
