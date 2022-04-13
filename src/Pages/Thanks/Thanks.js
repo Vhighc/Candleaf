@@ -3,7 +3,7 @@ import './Thanks.css'
 import Logo from '../../Components/Logo/Logo'
 import Greathanarrow from '../..//Components//Images//Greathanarrow.svg'
 import CheckCircleThankspg from '../..//Components//Images//CheckCircleThankspg.svg'
-import { link } from 'react-router-dom'
+// import { link } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 

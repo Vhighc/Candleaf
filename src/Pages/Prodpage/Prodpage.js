@@ -1,7 +1,7 @@
 import React from 'react'
 import './Prodpage.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import Footer from '../../Components/Footer/Footer'
+import Navbar from '../../Components/Navbar/Navbar'
 
 // const link = {
 //      font-family: 'Roboto', sans-serif;
@@ -20,10 +20,19 @@ import Footer from '../../Components/Footer/Footer'
 //     textDecoration: 'none',
 // }
 
+const prodNav = {
+  width: '100%',
+  backgroundColor: 'grey'
+}
+
 
 
 const Prodpage = () => {
   return (
+    <div>
+      <div>
+      <Navbar style={prodNav}/>
+      </div>
     <div className='page2prod'>
         <div className='propg2prod'>
             <div className='prodpgsec01imgcont'>
@@ -77,7 +86,7 @@ const Prodpage = () => {
                     <p><strong>Burning Time: </strong>70-75 hours <strong> Dimension: </strong>10cm x 5cm <strong> Weight: </strong>400g</p>
                  </div>
            </div>
-           <Footer />
+    </div>
     </div>
   )
 }

@@ -9,7 +9,6 @@ import styles from '../../heroStyles.module.css'
 import Cards3 from '../../Components/Cards3/Cards3'
 import Hero from '../../Components/Hero/Hero'
 import Navbar from '../../Components/Navbar/Navbar'
-import Footer from '../../Components/Footer/Footer'
 
 const myTitle1 = 'Products';
 const myParagraph1 = 'Order it for you or for your beloved ones';
@@ -45,7 +44,6 @@ const Home = () => {
          <div className='prodsec4'>
         <Products />
         </div> 
-        <Footer />
     </div>
   )
 }
