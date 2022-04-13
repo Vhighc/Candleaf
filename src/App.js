@@ -13,13 +13,24 @@ import { BrowserRouter as Router, Route,} from 'react-router-dom';
 import Prodpage from './Pages/Prodpage/Prodpage'
 import Auth from './Pages/Auth/Auth'
 import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
- 
+// import {useEffect, useState} from 'react'
+// import {useLocation} from 'react-router-dom'
 
 function App() {
+
+// const location = useLocation();
+// const [show, setShow] = useState(false) ;
+// useEffect(() => {
+//   console.log(location.pathname)
+//   if(location.pathname === '/receipt') setShow(true)
+// },[location])
+
+// console.log(show)
+
   return (
     <Router>
       <div className="App">
-        {/* <Navbar nav={true}/> */}
+       
         <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/prodpage" exact component={Prodpage} />

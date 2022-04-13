@@ -51,9 +51,9 @@ const Cart = () => {
         <p>Sub-total</p>
         <p>$ 9.99</p>
         <div>
-          <Link to='/shipping'>
-            <button>Check-out</button>
-          </Link>
+        
+            <button><Link to='/shipping'>Check-out</Link></button>
+          
         </div>
       </div>
       <p>{myParagraph01}</p>

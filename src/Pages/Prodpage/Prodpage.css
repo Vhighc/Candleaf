@@ -112,7 +112,7 @@
     margin-right: 20%;
     margin-left: 9%; 
 }
-.prodpgradiosec :link{
+.prodpgradiosec>button{
     display: flex;
     margin-top: 15%;
     width: 100%;
@@ -127,25 +127,10 @@
     gap: 14px;
     border: none;
 }
-.prodpgradiosec :link>button{
-    border: none;
-    display: flex;
-    width: 40%;
-    gap: 14px;
+.prodpgradiosec>button>p>link{
     color: rgba(255, 255, 255, 1);
-    text-decoration: none;
 }
-.prodpgradiosec>a{
-    color: white;
-    text-decoration: none;
-}
-/* .prodpgradiosec :link>button>p{
-    color: white;
-} */
 
-/* .prodpgradiosec :link >p{
-    color: rgba(255, 255, 255, 1);
-} */
 .prodpgradiosec>div>label{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;

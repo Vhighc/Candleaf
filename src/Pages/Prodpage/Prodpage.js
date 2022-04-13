@@ -1,6 +1,7 @@
 import React from 'react'
 import './Prodpage.css'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import Footer from '../../Components/Footer/Footer'
 
 // const link = {
 //      font-family: 'Roboto', sans-serif;
@@ -62,12 +63,12 @@ const Prodpage = () => {
                         <p>Subscribe now and get the 10% of discount on every recurring order.  The discount will be applied at checkout. <span className='seedet'>See details</span></p>
                      </div>
                     </div>
-                    <Link to='/cart' >
+                   
                     <button >
                     <img src="./Images/Vectorcartbutt.svg" alt="" />
-                    <p>+ Add to cart</p>
+                    <p> <Link to='/cart' >+ Add to cart </Link></p>
                     </button>
-                    </Link>
+                   
                 </div>
                 </div>
                   <div className='waxfragburn'>
@@ -76,6 +77,7 @@ const Prodpage = () => {
                     <p><strong>Burning Time: </strong>70-75 hours <strong> Dimension: </strong>10cm x 5cm <strong> Weight: </strong>400g</p>
                  </div>
            </div>
+           <Footer />
     </div>
   )
 }

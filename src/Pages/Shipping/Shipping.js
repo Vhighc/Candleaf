@@ -49,9 +49,9 @@ const Shipping = () => {
         </div>
         <div className='shippgclickins'>
           <div><a href="">Back to shipping</a></div>
-          <Link to='/payment'>
-          <div><button>Pay now</button></div>
-          </Link>
+          
+          <div><button><Link to='/payment'>Pay now</Link></button></div>
+          
         </div>
     </div>
   )
