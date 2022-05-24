@@ -1,13 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+// import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import "./Navbar.css"
 
-const Navbar = (props) => {
-  let className = props.nav ? 'nav' : ""
+const Navbar = () => {
+  // const Navbar = (props) => {
+  // let className = props.nav ? 'nav' : ""
 
 
   return (
-    <div className={className}>
+    <div className='nav'>
+      {/* <div className={className}> */}
     <div className="logo">
       <img src="./Images/CandLeafLogo1.svg" alt="logo" />
       <img src="./Images/NavWordmarkLogo1.svg" alt="candleaf" />
@@ -20,20 +22,20 @@ const Navbar = (props) => {
     <a href="/Auth">About</a>
     </div>
     <div className="navicons">
-    <Link to="/">
+    {/* <Link to="/"> */}
       <div className='buttconts'>
         <button>
           <img src="./Images/NavProfileIcon1.svg" alt="profile icon" />
         </button>
       </div>
-    </Link>
-    <Link to="/cart">
+    {/* </Link> */}
+    {/* <Link to="/cart"> */}
       <div className='buttconts'>
         <button>
           <img src="./Images/NavCartIcon1.svg" alt="cart icon" />
         </button>
       </div>
-    </Link>
+    {/* </Link> */}
     </div>
   </div>
   )

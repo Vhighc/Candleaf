@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
 
 .page2prod{
-    /* border: 1px solid red; */
     display: flex;
     margin-top: 5%;
     
@@ -12,34 +11,37 @@
     font-weight: 500;
     line-height: 26px;
     letter-spacing: -0.8999999165534973px;
-    /* border: 1px solid red; */
     text-align: center;
     position: relative;
     left: 38px;
     margin-left: 13%;
     margin-bottom: 5%;
     margin-right: 0.9%;
-    /* margin-top: 2%; */
 }
 #freeship{
     font-family: 'Poppins', sans-serif;  
     font-size: 20px;
     font-weight: 500;
     letter-spacing: -0.8999999165534973px;
-    /* border: 1px solid orange; */
     font-weight: 600;
     color: rgba(86, 178, 128, 1);
     position: relative;
-    left: 300px;
+    left: 260px;
 }
 .prodpgsec01imgcont{
-    /* border: 1px solid green; */
     background: rgba(247, 248, 250, 1);
     position: relative;
     left: 80px;
     margin-left: 6%;
-    width: 495px;
-    /* margin-bottom: 2%; */
+    width: 440px;
+    height: 380px;
+    margin-bottom: 2%;
+}
+.prodpgsec01imgcont>img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    align-items: center;
 }
 .preradiosecoptpg{
     border: 1px solid rgba(230, 230, 230, 1);
@@ -52,7 +54,6 @@
     display: flex;
 }
 .presimica{
-    /* border: 1px solid blue; */
     margin-left: 5%;
     margin-bottom: 13%;
 }
@@ -66,7 +67,6 @@
     margin-bottom: 2%;
 }
 .subsimica01{
-    /* border: 1px solid salmon; */
     width: 25%;
 }
 .subsimica01>h2{
@@ -102,17 +102,16 @@
     justify-content: center;
     gap: 10%;
     border: 1px solid rgba(86, 178, 128, 1);
-  
+
 }
 .prodpagebutt>button>div{
     color: rgba(86, 178, 128, 1);
 }
 .prodpgradiosec{
-    /* border: 1px solid yellow; */
     margin-right: 20%;
     margin-left: 9%; 
 }
-.prodpgradiosec>button{
+a>button{
     display: flex;
     margin-top: 15%;
     width: 100%;
@@ -127,10 +126,10 @@
     gap: 14px;
     border: none;
 }
-/* .prodpgradiosec>button>p>link{
-    color: rgba(255, 255, 255, 1);
-} */
 
+.prodpgradiosec>a{
+    text-decoration: none;
+}
 .prodpgradiosec>div>label{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;

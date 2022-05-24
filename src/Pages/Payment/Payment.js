@@ -102,8 +102,14 @@ const Payment = () => {
           </div>
         </div>
         <div className='clickins'>
-          <div><a href="">Back to shipping</a></div>
-          <div><button><Link to='/thanks'>Pay now</Link></button></div>
+          <div>
+            <Link to='/shipping'>Back to shipping</Link>
+          </div>
+          <div>
+            <button>
+              <Link to='/thanks'>Pay now</Link>
+            </button>
+          </div>
         </div>
     </div>
   )

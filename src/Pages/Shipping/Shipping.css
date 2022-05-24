@@ -162,10 +162,6 @@ hr{
     letter-spacing: -0.8999999165534973px;
 }
 .shippgclickins>div>button{
-    color: rgba(255, 255, 255, 1);
-    font-size: 21px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
     border: none;
     background: rgba(86, 178, 128, 1);
     width: 166px;
@@ -173,4 +169,11 @@ hr{
     line-height: 40px;
     position: relative;
     left: 193px;
+}
+.shippgclickins>div>button>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }

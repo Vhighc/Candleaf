@@ -36,7 +36,7 @@ const Thanks = () => {
           Now that your order is confirmed it will be ready to ship in 2 days. 
           Please check your inbox in the future for your order updates.
         </p>
-        <button>Back to shopping</button>
+        <button><Link to='/home'>Back to shopping</Link></button>
         <div className='recethank'><Link to='/receipt'>Print receipt</Link></div>
     </div>
   )

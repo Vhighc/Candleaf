@@ -5,27 +5,35 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&family=Poppins:wght@100;200;300&family=Quicksand:wght@300;400;600;700&family=Roboto:wght@100;300;400&display=swap');
 
-.prodnam{
-    /* background-color: aquamarine; */
+/* .spimin{
     display: flex;
     justify-content: center;
     gap: 1%;
-}
-.prodnam a{
-    text-decoration: none;
-}
-.prodnam>div{
-    /* border: 1px solid red; */
-    /* height: 70%; */
-}
-.imgcon2s1{
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+} */
+/* .img201cont{
+    height: 40%;
+    border: 1px soild blue;
+} */
+.imgs101cont{
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
-    /* border: 1px solid blue; */
     background: #F7F8FA;
-    height: 67%;
+    /* display: flex; */
 }
-.textcon2s1>h4{
+.texts101{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 3%;
+
+}
+.spimin{
+    border: 1px solid red; 
+    background-color: #FFFFFF
+}
+.spimin>h4{
     font-weight: 500;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -33,7 +41,7 @@
     padding-top: 7px;
     color: #1D293F;
 }
-.textcon2s1>p{
+.spimin>p{
     font-weight: 500;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;

@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 
 const myShipHeader01 = 'Shipping method'
 
+
 const Shipping = () => {
   return (
     <div className='shippnpg'>
@@ -48,9 +49,14 @@ const Shipping = () => {
           <div className='subshippgsec04'><p>Free</p></div>
         </div>
         <div className='shippgclickins'>
-          <div><a href="">Back to shipping</a></div>
-          
-          <div><button><Link to='/payment'>Pay now</Link></button></div>
+          <div >
+            <Link to='/basket'>Back to shipping</Link>
+          </div>        
+          <div>
+            <button>
+              <Link to='/payment'>Pay now</Link>
+            </button>
+          </div>
           
         </div>
     </div>

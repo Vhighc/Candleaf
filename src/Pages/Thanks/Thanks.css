@@ -71,11 +71,6 @@
     margin-right: 20%;
 }
 .thankspg>button{
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    font-weight: 500;
-    line-height: 24px;
     background: rgba(86, 178, 128, 1);
     border: none;
     height: 40px;
@@ -83,6 +78,14 @@
     border-radius: 4px;
     margin-left: 35%;
     margin-top: 2%;
+}
+.thankspg>button>a{
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
 }
 .thankspg>div>a{
     font-family: 'Roboto', sans-serif;
