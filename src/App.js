@@ -1,5 +1,5 @@
-import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
-import { BrowserRouter as Router, Route,} from 'react-router-dom';
+
+import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 import Prodpage from './Pages/Prodpage/Prodpage'
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
@@ -47,21 +47,15 @@ const onRemove = (product) => {
   return (
     <Router>
       <div className="App">
-        <Switch>
-          <Route path='/home'>
-            <Home onAdd={onAdd} products={products} />
-          </Route>
-          <Route path='/prodpage'>
-            <Prodpage onAdd={onAdd} onRemove={onRemove} addItems={addItems} />
-          </Route>
-          <Route path='/basket'>
-            <Basket products={products} addItems={addItems} onRemove={onRemove} onAdd={onAdd} handleDelete={handleDelete} />
-          </Route>
-        </Switch>
-         <Route path="/shipping" exact component={Shipping} />
-         <Route path="/payment" exact component={Payment} />
-         <Route path="/thanks" exact component={Thanks} />
-         <Route path="/receipt" exact component={Receipt} />  
+        <Routes>
+         <Route path='/' element={<Home onAdd={onAdd} products={products} />} />
+         <Route path='/prodpage' element={<Prodpage onAdd={onAdd} onRemove={onRemove} addItems={addItems} />} />      
+         <Route path='/basket' element={  <Basket products={products} addItems={addItems} onRemove={onRemove} onAdd={onAdd} handleDelete={handleDelete} />} />
+         <Route path="/shipping" element={<Shipping />} />
+         <Route path="/payment" element={<Payment />} />
+         <Route path="/thanks" element={<Thanks />} />
+         <Route path="/receipt" element={<Receipt />} />        
+        </Routes>
         <Footer />
       </div>
       </Router>

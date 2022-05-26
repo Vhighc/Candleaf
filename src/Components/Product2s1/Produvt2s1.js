@@ -4,7 +4,7 @@ import FragrantCinnamon2s1 from '../Images/FragrantCinnamon2s1.svg'
 import SummerCherries2s1 from '../Images/SummerCherries2s1.svg'
 import CleanLavander2s1 from '../Images/CleanLavander2s1.svg'
 import './Product2s1.css'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { Link } from 'react-router-dom';
 import { useState } from 'react'
 
 const Produvt2s1 = (props) => {

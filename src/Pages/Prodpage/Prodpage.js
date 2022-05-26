@@ -1,7 +1,8 @@
 
 import './Prodpage.css'
 import Navbar from '../../Components/Navbar/Navbar';
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+
+import { Link } from 'react-router-dom';
 
 
 
